@@ -1,15 +1,24 @@
+
+
+body {
+    background-color: #807f9a;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 h1 {
     text-align: center;
 }
 
 .list-wrapper {
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
     font-size: 20px;
 }
 
 .list-wrapper li {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .list-wrapper ul {
     list-style-type: none;
@@ -18,10 +27,16 @@ h1 {
 .list-wrapper a {
     text-decoration: none;
     color: black;
-    background-color: gray;
+    background-color: #c695be;
     border-style: solid;
     border-radius: 7px;
-    border-color: gray;
+    border-color: #c695be;
+    font-size: 25px;
     
     
+}
+
+.list-wrapper a:hover {
+    background-color: #dfd1dd;
+    border-color: #dfd1dd;
 }
